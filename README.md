@@ -1,6 +1,6 @@
-FORMAT: 1A
-
 # E-Prescription API endpoints
+## URL
+`https://eprescriptionapi.prodentor.se`
 
 # Pharmaceutical Articles
 `/api/pharmaceutical-articles`
