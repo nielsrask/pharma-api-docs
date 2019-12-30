@@ -1,11 +1,14 @@
-FORMAT: 1A
-
 # E-Prescription API endpoints
+## URL
+`https://eprescriptionapi.prodentor.se`
 
-# Pharmaceutical Articles [/api/pharmaceutical-articles]
+# Pharmaceutical Articles
+`/api/pharmaceutical-articles`
+
 Pharmaceutical Articles resource representation.
 
-## Get Pharmaceutical Articles [GET /api/pharmaceutical-articles/{occupational_code,?query,?article_code}]
+## Get Pharmaceutical Articles
+`GET /api/pharmaceutical-articles/{occupational_code,?query,?article_code}`
 
 
 + Parameters
@@ -164,10 +167,13 @@ Pharmaceutical Articles resource representation.
                 }
             }
 
-# Pharmacies [/api/pharmacies]
+# Pharmacies
+`/api/pharmacies`
+
 Pharmacies resource representation.
 
-## Get Pharmacies [GET /api/pharmacies/{occupational_code,?query,?code}]
+## Get Pharmacies
+`GET /api/pharmacies/{occupational_code,?query,?code}`
 
 
 + Parameters
